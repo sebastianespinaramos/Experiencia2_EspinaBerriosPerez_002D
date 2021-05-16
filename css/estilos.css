@@ -1,4 +1,5 @@
 
+
 .iconos-reader-header{
     width: 20px;
     margin: 10px 5px;
@@ -15,10 +16,12 @@ footer{
     text-align: center;
 }
 body{
+    color: #fff;
+    font-family:Arial;
     background-color: #007bff;
 }
 h1{
-    color: #000000;
+    color: #fff;
     font-family:Arial;
     text-align: center;
     font-size: xx-large;
@@ -46,7 +49,7 @@ h5{
     font-family:Arial;
 }
 body{
-    background-image: url(../img/fondo-de-pantalla-hermosos-perros-546.jpg);
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -54,8 +57,9 @@ body{
 }
 
 main{
+    background-image: url(../img/fondo.jpg);
     width: 100%;
-    padding: 20px;
+    padding: 160px;
     margin: auto;
     margin-top: 100px;
 }
