@@ -8,7 +8,13 @@ var formulario_login = document.querySelector(".formulario__login");
 var formulario_register = document.querySelector(".formulario__register");
 var caja_trasera_login = document.querySelector(".caja__trasera-login");
 var caja_trasera_register = document.querySelector(".caja__trasera-register");
-
+function felicitarCrea(){
+    alert("Felicidades a creado usuario con exito")
+}
+function felicitarinic(){
+    alert("Felicidades a iniciado sesión con exito")
+}
+            
 function anchoPagina(){
     if(window.innerWidth > 850){
         caja_trasera_login.style.display ="block";
@@ -21,6 +27,7 @@ function anchoPagina(){
         formulario_register.style.display="none";
         contenedor_login_register.style.left="0px";
     }}
+    
 anchoPagina();
 function iniciarSesion()
 {
